@@ -1,0 +1,35 @@
+/* --text: #fcfee7;
+--background: #000000;
+--primary: #483bf7;
+--secondary: #140122;
+--accent: #0a69e6; */
+
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.paragraphs{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+p{
+    background-color: #140122;
+    margin: 20px;
+    width: 20vw;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+p a{
+    background-color: rgb(161, 161, 161);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
