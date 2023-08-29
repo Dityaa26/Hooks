@@ -8,10 +8,19 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
             <NavLink to="/usestate">useState()</NavLink>
           </li>
           <li>
             <NavLink to="/usereducer">useReducer()</NavLink>
+          </li>
+          <li>
+            <NavLink to="/useeffect">useEffect()</NavLink>
+          </li>
+          <li>
+            <NavLink to="/useref">useRef()</NavLink>
           </li>
         </ul>
       </nav>

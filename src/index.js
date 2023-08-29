@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import UseState from './Pages/UseState';
 import UseReducer from './Pages/UseReducer';
+import UseEffect from './Pages/UseEffect';
+import UseRef from './Pages/UseRef'
 
 
 
@@ -14,12 +16,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/usestate' element={<UseState />} />
-      <Route path='/usereducer' element={<UseReducer />} />
-    </Routes>
+      <App />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/usestate" element={<UseState />} />
+        <Route path="/usereducer" element={<UseReducer />} />
+        <Route path="/useeffect" element={<UseEffect />} />
+        <Route path="/useref" element={<UseRef />} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

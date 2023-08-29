@@ -15,6 +15,25 @@ h2{
     justify-content: space-around;
 }
 
+@media(max-width: 480px){
+.paragraphs{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    background-color: #140122;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+}
+
 p{
     background-color: #140122;
     margin: 20px;
@@ -32,4 +51,9 @@ p a{
     border-radius: 5px;
     color: white;
     text-decoration: none;
+}
+
+p a:hover{
+    font-weight: bold;
+    background-color: rgb(165, 165, 165);
 }
